@@ -6,9 +6,9 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="C:\Users\Ed\AutoModModels\Sumo\2022-03-09-13-33-32\osm.net.xml"/>
-        <route-files value="C:\Users\Ed\AutoModModels\Sumo\2022-03-09-13-33-32\osm.passenger.trips.xml"/>
-        <additional-files value="C:\Users\Ed\AutoModModels\Sumo\2022-03-09-13-33-32\osm.poly.xml"/>
+        <net-file value="2022-03-09-13-33-32\osm.net.xml"/>
+        <route-files value="2022-03-09-13-33-32\osm.passenger.trips.xml"/>
+        <additional-files value="2022-03-09-13-33-32\osm.poly.xml"/>
     </input>
 
     <processing>
@@ -26,7 +26,7 @@
     </report>
 
     <gui_only>
-        <gui-settings-file value="C:\Users\Ed\AutoModModels\Sumo\2022-03-09-13-33-32\osm.view.xml"/>
+        <gui-settings-file value="2022-03-09-13-33-32\osm.view.xml"/>
     </gui_only>
 
 </configuration>

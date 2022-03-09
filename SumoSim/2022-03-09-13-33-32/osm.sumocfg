@@ -19,10 +19,16 @@
         <device.rerouting.adaptation-steps value="180"/>
     </routing>
 
+    <output>
+         <tripinfo-output value="tripinfo.out.xml"/>
+         <tripinfo-output.write-unfinished value="true"/>
+    </output>
     <report>
-        <verbose value="true"/>
-        <duration-log.statistics value="true"/>
-        <no-step-log value="true"/>
+		<verbose value="true"/>
+		<duration-log.statistics value="true"/>
+		<no-step-log value="true"/>
+		<message-log value="statistic.out.xml"/>
+		<error-log value="error.log.xml"/>
     </report>
 
     <gui_only>
