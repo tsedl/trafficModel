@@ -1,0 +1,131 @@
+Cannot create directory 'C:\WINDOWS\system32\2022-03-09-13-33-32'
+Building scenario in 'C:\Users\Ed\AutoModModels\Sumo\2022-03-09-13-33-32'
+Downloading map data
+200 OK
+Converting map data
+Written configuration to 'osm.netccfg'
+Loading configuration ... done.
+Parsing types from 'C:\Program Files (x86)\Eclipse\Sumo\data\typemap\osmNetconvert.typ.xml' ... done.
+Parsing nodes from osm-file 'osm_bbox.osm.xml' ...
+Found and substituted 8 osm nodes.
+done.
+Parsing edges from osm-file 'osm_bbox.osm.xml' ... done.
+Removing duplicate edges ... done.
+Warning: Discarding unknown compound 'usage.branch' in type 'railway.rail|usage.branch' (first occurence for edge '27144990').
+Warning: Discarding unusable type 'railway.abandoned' (first occurence for edge '36938817').
+Warning: Discarding unusable type 'railway.platform' (first occurence for edge '90194571').
+Warning: Discarding unusable type 'waterway.stream' (first occurence for edge '142725100').
+Warning: Discarding unknown compound 'cycleway.crossing' in type 'cycleway.crossing|highway.cycleway' (first occurence for edge '179127854').
+Parsing relations from osm-file 'osm_bbox.osm.xml' ...
+Warning: No way found for reference '44203432' in relation '10157998'
+Warning: Ignoring restriction relation '10157998' with unknown to-way.
+done.
+ Removed 20 traffic lights before loading plain-XML
+ Import done:
+   1180 nodes loaded.
+   33 types loaded.
+   2482 edges loaded.
+Proj projection parameters used: '+proj=utm +zone=30 +ellps=WGS84 +datum=WGS84 +units=m +no_defs'.
+Removing self-loops ... done (2ms).
+Joining junction clusters ...
+Warning: Reducing junction cluster 1533402155,1533402157,26308166,291674189,297836129,30470903,30470910,4284082822,4284082823,4284082826,4284087303,4284096169,4284096171,4284096172,4284097705,714089922 (10 incoming edges).
+Warning: Not joining junctions 10384893,10385324,10385327,10385425,1533416402,3827870474 (5 incoming edges).
+Warning: Not joining junctions 1673993407,327406994,7952682464 (only 1 exit node).
+Warning: Reducing junction cluster 1673994366,1673994369,1893944772,382692537,4284097707,5404393366 (8 incoming edges).
+Warning: Reducing junction cluster 1673994422,1673994436,1893944797 (parallel incoming -154946350#0,154946362#2).
+Warning: Not joining junctions 1802174944,1802174945 (only 1 exit node).
+Warning: Reducing junction cluster 1893944940,1894625879,1894625884,1894625888,1894625891,1894625901,1894625929,690983687 (9 incoming edges).
+Warning: Not joining junctions 1894625886,1894625894 (parallel incoming -179123118#0,179123125).
+Warning: Not joining junctions 1894625947,1894625955,1894625957 (5 incoming edges).
+done (98ms).
+ Joined 69 junction cluster(s).
+Removing empty nodes and geometry nodes ... done (8ms).
+   86 nodes removed.
+Moving network to origin ... done (47ms).
+Computing turning directions ...
+Warning: Ambiguity in turnarounds computation at junction '4284116542'.
+Warning: Ambiguity in turnarounds computation at junction '6521850977'.
+Warning: Ambiguity in turnarounds computation at junction 'cluster_1045762927_1673994440_4284097711_4284097738'.
+Warning: Ambiguity in turnarounds computation at junction 'cluster_1673994318_4284097714_5468033409_5468033410'.
+Warning: Ambiguity in turnarounds computation at junction 'cluster_1673994444_4284097726'.
+done (39ms).
+Assigning nodes to traffic lights ... done (5ms).
+Guessing and setting on-/off-ramps ... done (6ms).
+Warning: Found sharp turn with radius 6.51 at the end of edge '-142725088#1'.
+Warning: Found angle of 138.56 degrees at edge '-143317268#3', segment 5.
+Warning: Found angle of 101.89 degrees at edge '-154946392', segment 0.
+Warning: Found angle of 103.87 degrees at edge '-154946404#3', segment 0.
+Warning: Found sharp turn with radius 7.60 at the start of edge '-179127854#1'.
+Warning: Found sharp turn with radius 7.51 at the end of edge '-179127854#1'.
+Warning: Found sharp turn with radius 6.49 at the start of edge '-179127857#1'.
+Warning: Found sharp turn with radius 6.03 at the end of edge '-179127857#1'.
+Warning: Found sharp turn with radius 4.00 at the start of edge '-378935275#17'.
+Warning: Found sharp turn with radius 7.34 at the end of edge '-429287688#11'.
+Warning: Found sharp turn with radius 6.44 at the start of edge '-429287688#15'.
+Warning: Found sharp turn with radius 8.47 at the start of edge '-429287688#5'.
+Warning: Found sharp turn with radius 8.87 at the end of edge '-444110762#1'.
+Warning: Found angle of 138.56 degrees at edge '143317268#3', segment 5.
+Warning: Found angle of 101.89 degrees at edge '154946392', segment 1.
+Sorting nodes' edges ... done (4ms).
+Computing node shapes ... done (69ms).
+Computing edge shapes ... done (32ms).
+Computing node types ... done (3ms).
+Computing priorities ... done (4ms).
+Computing approached edges ... done (8ms).
+Guessing and setting roundabouts ...
+ Guessed 2 roundabout(s).
+done (6ms).
+Computing approaching lanes ... done (19ms).
+Dividing of lanes on approached lanes ... done (14ms).
+Processing turnarounds ... done (9ms).
+Rechecking of lane endings ... done (5ms).
+Joining traffic light nodes ... done (7ms).
+Computing traffic light control information ... done (5ms).
+Computing node logics ... done (53ms).
+Computing traffic light logics ... done (7ms).
+ 9 traffic light(s) computed.
+Building inner edges ...
+Warning: Speed of straight connection '4362583#1_0->4362581#4_0' reduced by 6.73 due to turning radius of 17.95 (length=8.45, angle=43.24).
+Warning: Speed of straight connection '54729988#0_0->54729988#1_0' reduced by 12.45 due to turning radius of 17.37 (length=6.13, angle=36.19).
+Warning: Speed of straight connection '38128382_0->544650154#0_0' reduced by 7.55 due to turning radius of 19.40 (length=8.36, angle=40.76).
+Warning: Speed of straight connection '38128382_1->544650154#0_1' reduced by 6.28 due to turning radius of 24.45 (length=10.64, angle=40.76).
+Warning: Speed of straight connection '38128450#1_0->38128450#0_0' reduced by 6.29 due to turning radius of 10.50 (length=12.64, angle=89.67).
+Warning: Intersecting left turns at junction 'cluster_249513856_448707762_448708327' from lane '38128383#6_0' and lane '-38128383#9_0' (increase junction radius to avoid this).
+done (158ms).
+-----------------------------------------------------
+Summary:
+ Node type statistics:
+  Unregulated junctions       : 0
+  Dead-end junctions          : 121
+  Priority junctions          : 650
+  Right-before-left junctions : 201
+  Traffic light junctions      : 17
+ Network boundaries:
+  Original boundary  : -1.73,53.79,-1.67,53.83
+  Applied offset     : -584257.37,5961118.23
+  Converted boundary : 0.00,-2795.51,3426.34,0.00
+-----------------------------------------------------
+Writing network ... done (536ms).
+Warning: 10 total messages of type: Ambiguity in turnarounds computation at junction '%'.
+Warning: 6 total messages of type: Found angle of % degrees at edge '%', segment %.
+Warning: 17 total messages of type: Found sharp turn with radius % at the end of edge '%'.
+Warning: 29 total messages of type: Found sharp turn with radius % at the start of edge '%'.
+Warning: 6 total messages of type: Not joining junctions % (%).
+Warning: 8 total messages of type: Speed of % connection '%' reduced by % due to turning radius of % (length=%, angle=%).
+Success.
+Written configuration to 'osm.polycfg'
+Loading configuration ... done.
+Parsing network projection from 'osm.net.xml' ... done (17ms).
+Parsing nodes from osm-file 'osm_bbox.osm.xml' ... done (317ms).
+Parsing relations from osm-file 'osm_bbox.osm.xml' ... done (191ms).
+Parsing edges from osm-file 'osm_bbox.osm.xml' ... done (223ms).
+Success.
+Processing Cars
+calling  C:\Program Files (x86)\Eclipse\Sumo\bin\duarouter -n C:\Users\Ed\AutoModModels\Sumo\2022-03-09-13-33-32\osm.net.xml -r C:\Users\Ed\AutoModModels\Sumo\2022-03-09-13-33-32\osm.passenger.trips.xml --ignore-errors --begin 0 --end 3600.0 --no-step-log --no-warnings -o routes.rou.xml
+Error: Could not build output file 'routes.rou.xml' (Permission denied).
+Quitting (on error).
+calling  C:\Program Files (x86)\Eclipse\Sumo\bin\duarouter -n C:\Users\Ed\AutoModModels\Sumo\2022-03-09-13-33-32\osm.net.xml -r C:\Users\Ed\AutoModModels\Sumo\2022-03-09-13-33-32\osm.passenger.trips.xml --ignore-errors --begin 0 --end 3600.0 --no-step-log --no-warnings -o C:\Users\Ed\AutoModModels\Sumo\2022-03-09-13-33-32\osm.passenger.trips.xml.tmp --write-trips
+Success.
+Generating configuration file
+Written configuration to 'osm.sumocfg'
+Calling SUMO

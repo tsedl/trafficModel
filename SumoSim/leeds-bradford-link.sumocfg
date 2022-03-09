@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/09/22 13:38:16 by Eclipse SUMO GUI Version 1.5.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\Ed\AutoModModels\Sumo\2022-03-09-13-33-32\osm.net.xml"/>
+        <route-files value="C:\Users\Ed\AutoModModels\Sumo\2022-03-09-13-33-32\osm.passenger.trips.xml"/>
+        <additional-files value="C:\Users\Ed\AutoModModels\Sumo\2022-03-09-13-33-32\osm.poly.xml"/>
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="180"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="C:\Users\Ed\AutoModModels\Sumo\2022-03-09-13-33-32\osm.view.xml"/>
+    </gui_only>
+
+</configuration>
