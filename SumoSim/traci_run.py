@@ -3,8 +3,12 @@
 # the config file was generated using OSM Web wizard for Sumo, which is included in the installer
 # following the instruction https://sumo.dlr.de/docs/TraCI/Interfacing_TraCI_from_Python.html
 # to get summary statistics use --statistic-output <FILE>
-import traci
 import os
+print(os.environ.get("SUMO_HOME"))
+
+import traci
+
+
 
 #sumoCmd = ["sumo-gui", "-c", "leeds-bradford-link.sumocfg"]
 sumoCmd = ["sumo-gui", "-c", os.path.join("2022-03-10-11-17-40","osm.sumocfg")]
